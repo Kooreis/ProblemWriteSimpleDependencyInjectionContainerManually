@@ -1,5 +1,3 @@
-class Container {
-    constructor() {
-        this.dependencies = {};
+register(key, value) {
+        this.dependencies[key] = value;
     }
-}
